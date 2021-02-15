@@ -19,7 +19,7 @@ def get_image_size(path):
 
 
 def check_proportions(old_width, old_height, width, height):
-    return round(old_width / width, 2) == round(old_height / height, 2)
+    return round(old_width / width, 4) == round(old_height / height, 4)
 
 
 def resize_image(image_path, new_width, new_height):
